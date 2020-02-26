@@ -1,0 +1,8 @@
+get csv from https://people.sc.fsu.edu/~jburkardt/data/csv/homes.csv
+
+from math import sqrt
+
+write a function to calculate the mean
+write a function to calculate the standard deviation
+if medium is the mean +- std how many small, medium and large houses are there?
+
