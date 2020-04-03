@@ -21,8 +21,11 @@
 with open('filename.txt', 'r') as fh:
     line = fh.readline()
     while line:
+        if not line:
+            break
         data = line.split(',')
         print(data[0])
+        line = fh.readline()
 
 """ reading files
  the less idiomatic way
@@ -33,4 +36,3 @@ for line in fh.readlines():
     data = line.split(',')
     print(data[1])
 fh.close()
-

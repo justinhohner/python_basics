@@ -8,7 +8,7 @@
 """
 i = 1
 while i < 100:
-    print("i is %d".format(i))
+    print("i is {}".format(i))
     i += 1
 
 """
