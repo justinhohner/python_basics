@@ -39,3 +39,9 @@ a = {1:"Steve", 2:"Bill", 3:"Ram", 4: "Farha"}
 print(a)
 a = {"Steve":1, "Bill":2, "Ram":3, "Farha":4}
 print(a)
+
+"""
+Create a variable to store your name and set it's value to your name
+Create a list of numbers from 1 to 10
+add the first 3 values of the list of numbers
+"""
